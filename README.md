@@ -1,122 +1,98 @@
-🚗 Car Washing Management System (PHP & MySQL)
-📌 Project Overview
+# 🚗 Car Washing Management System (CWMS)
 
-Car Washing Management System is a web-based application developed using PHP and MySQL. This system helps car wash centers manage their daily operations such as customer records, service booking, billing, and admin management.
+ 📌 Project Overview
 
-The main purpose of this project is to automate the manual car wash management process and make it faster, accurate, and efficient.
+Car Washing Management System (CWMS) is a web-based application developed using **PHP and MySQL**. This system helps car wash centers manage bookings, customer complaints, washing points, and service status efficiently.
 
-🎯 Objectives
+It provides separate panels for **Users and Admin**, allowing proper management of car wash operations.
 
-To manage car wash services digitally
-To store customer and vehicle information
-To manage service bookings and billing
-To reduce manual work and paperwork
-To provide secure admin login system
+# 🛠️ Technologies Used
 
-🛠️ Technologies Used
-Technology	Purpose
-PHP	Backend Development
-MySQL	Database
-HTML	Structure
-CSS	Styling
-JavaScript	Client-side functionality
-XAMPP	Local Server
-phpMyAdmin	Database Management
+* PHP (Backend)
+* MySQL (Database)
+* HTML
+* CSS
+* JavaScript
+* XAMPP Server
+* phpMyAdmin
 
+# 📁 Project Folder Structure
 
-💻 Features
-
-Admin Features
-
-Admin Login / Logout
-Dashboard Overview
-Add New Car Wash Service
-Manage Services
-Add Customer Details
-Manage Customer Records
-Generate Bills
-View Reports
-User Features
-View Available Services
-Book Car Wash Service
-View Booking Details
-
-🗄️ Database Name
-
-Admin Login Details:
-
-Username:
-admin
-
-Password:
-admin123
-
-(Note: Change credentials for security)
-
-📁 Project Structure
-carwash/
+CWMS/
 │
-├── admin/
-├── includes/
-├── css/
-├── js/
-├── images/
+├── Admin/
+│   ├── admin_login.php
+│   ├── admin_dashboard.php
+│   ├── admin_complaint.php
+│   ├── new_booking.php
+│   ├── pending_booking.php
+│   ├── complete_booking.php
+│   ├── washing_point.php
+│   └── style.css
+│
+├── img/
+│
+├── about.php
+├── appointment.php
+├── complaint.php
+├── config.php
 ├── index.php
-├── login.php
-├── dashboard.php
+├── Login.php
+├── Register.php
+├── main_page.php
+├── plans.php
+├── points.php
+├── style.css
+│
 └── cwmsdb.sql
-📊 System Modules
 
-Admin Module
 
-Customer Management Module
 
-Service Management Module
+# 👤 User Features
 
-Billing Module
+* User Registration
+* User Login
+* Book Car Wash Appointment
+* View Washing Plans
+* Submit Complaint
+* View Washing Points
 
-Authentication Module
+# 🔐 Admin Features
 
-✅ Advantages
+* Admin Login
+* View Dashboard
+* View New Bookings
+* View Pending Bookings
+* View Completed Bookings
+* Manage Washing Points
+* View User Complaints
 
-Easy to use
+## 🗄️ Database Configuration
 
-Saves time
+Database Name:
 
-Reduces paperwork
+cwmsdb
 
-Secure login system
+Database connection file:
 
-Efficient management
+config.php
 
-🚀 Future Enhancements
+# 🎓 Developed For
 
-Online Payment Integration
+Bachelor of Computer Applications (BCA) Minor Project
 
-Email Notification
+## 👨‍💻 Developer
 
-Mobile Responsive Design
+Name:Khadkivala Hamza
+Course: BCA
+Year: 2025
 
-User Registration System
+## 📜 License
 
-👨‍💻 Developer
+This project is for educational purposes only.
 
-Project developed by:
-Khadkivala Hamza
+---
 
-Course:
-Bachelor of Computer Applications (BCA)
+## ⭐ GitHub
 
-College:
-Narmda college of science and commerce
-
-Year:
-2025
-
-📜 License
-
-This project is developed for educational purposes only.
-
-⭐ GitHub Repository
-
-If you like this project, please give it a ⭐ on GitHub.
+If you like this project, please give it a star ⭐
